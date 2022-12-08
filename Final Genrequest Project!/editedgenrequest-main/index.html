@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="main.css">
+    <link rel="icon" type="image/ico" href="/images/icon.jpg">
+    <title>Genrequest!</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+    </style>
+    <script src="https://cdn.jsdelivr.net/binaryjs/0.2.1/binary.min.js"></script>
+  </head>
+  <body>
+    <button onclick="startRecording()">Start Recording</button>
+    <button onclick="showMessage()">Stop Recording</button>
+      <marquee behavior="scroll" direction="left">Want to know the genre of your favorite song? Record a 10 second song clip to find out!</marquee>
+    <script src="recorder.js"></script>
+      <script type="text/javascript">
+          function showMessage() {
+              alert("Song Genre is: Jazz!");
+          }
+      </script>
+  </body>
+</html>
